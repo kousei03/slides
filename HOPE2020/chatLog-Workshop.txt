@@ -1,0 +1,651 @@
+[20:26] Aleksandra : hello
+[20:26] Azriel : hola
+[20:27] Ax : Hey Azriel. 🦀
+[20:27] Corbin Frisvold : Do you guys have microphone access?
+[20:27] Corbin Frisvold : If you want, you can speak :)
+[20:27] foxxtrot : I am finishing eating before we start, figiured I'd keep that off mic
+[20:27] Azriel : Hello Ax
+[20:28] Corbin Frisvold : Awe but that's what we want to hear, all the vicious chewing
+[20:28] Aleksandra : :d
+[20:29] kaluce : Do we need any platform.IO, or any libraries before we start?
+[20:29] kaluce : No worries. I feel ya.
+[20:30] g33rb0x_ : Winning.
+[20:30] Ax : The 13 yo girl didnt make excuses about school ;P
+[20:31] Ax : That is SO COOL
+[20:32] Ax : Nice
+[20:36] Z : What was the talk? Food coloring?
+[20:36] Azriel : only one AWS outage so pretty good
+[20:36] Aleksandra : It is going great :D
+[20:37] kaluce : Yo.
+[20:37] danbob : I do!
+[20:37] Jesse E. : i do
+[20:37] kixdsky : I do
+[20:37] David : yes
+[20:37] Azriel : I have something "comparable"
+[20:37] Z : Nano 33 Sense BLE, showed up on Monday.
+[20:38] lordoftherealm : Hi,  Are there any notes you want to post in the Shar/ed Notes section
+[20:38] nanopeace : Just got it in mail, haven't put together power and programming yet....
+[20:38] nanopeace : :(
+[20:38] kixdsky : I got the blink sketch working on it.  Just got it on Saturday.
+[20:38] dml : is the audio skipping a bit, or is it just me?
+[20:38] g33rb0x_ : (any one else's audio cutting in and out?)
+[20:39] g33rb0x_ : @dml me too lmao
+[20:39] danbob : Yeah, audio skipping for me too.
+[20:39] qdigi : yeah
+[20:39] nanopeace : voice is breaking up, btw
+[20:39] Z : Thought it was just my crappy connection. :-(
+[20:39] Swapneel : same
+[20:39] Corbin Frisvold : My connection may be crappy
+[20:39] nanopeace : yes
+[20:39] Daniel : Yes
+[20:39] rtrevinnoc : yes
+[20:39] Kush Mangat : yup
+[20:39] Curiosity : Breaking up for me, too
+[20:39] nanopeace : breaking again
+[20:39] Daniel : Voice Still breaking up
+[20:40] nanopeace : are you on wifi?
+[20:40] psytek : maybe check if you have anything taking up your bandwidth
+[20:40] kaluce : lost audio?
+[20:40] Corbin Frisvold : Yeah.. one minute
+[20:40] Daniel : Maybe all other mics need to be muted?
+[20:40] kixdsky : mute all others, confine to chat
+[20:40] Curiosity : Good idea, Daniel
+[20:41] nanopeace : tiny print, can you say name of library?
+[20:41] Swapneel : is this in a repo?
+[20:41] Z : LSM9 and which?
+[20:41] Corbin Frisvold : LSM9DS1
+[20:41] Corbin Frisvold : Arduino_TensorflowLite
+[20:41] Curiosity : Will this be recorded or is there a YouTube version we'll be able to come back to later and re-watch?
+[20:42] Corbin Frisvold : Heh- putting it in a repo would have been a good idea.  I don't have those
+[20:42] Corbin Frisvold : I'm not sure if workshops are recorded, but everything I do today I'll summate in a blog post at some point at maker.godshell.com
+[20:42] Curiosity : There are shared notes you can put links and resources in. Look to the left of the chat.
+[20:42] Corbin Frisvold : ... I haven't posted since November last year, dont @ me
+[20:42] Curiosity : You can choose to record.
+[20:42] Curiosity : There's a button on the top of the screen.
+[20:43] Daniel : No Audio?
+[20:43] Swapneel : that would be awesome
+[20:43] Swapneel : cuz currently...my board...uh doesn't exist
+[20:43] Swapneel : but that'll change
+[20:44] Corbin Frisvold : My connection is giving me audio problems, I'm trying to sort it out, for now I'll just use this
+[20:44] Daniel : OK
+[20:45] Corbin Frisvold : Yeah sorry about that guys
+[20:45] psytek : the audio works for the most part
+[20:45] psytek : it occasionally breaks up.. what we could do is if anyone didn't hear to have you repeat?
+[20:46] Corbin Frisvold : Yeah I can do that
+[20:46] psytek : cool
+[20:51] Corbin Frisvold : Oh wow I got totally kicked off, my internet is having a bad day.
+[20:51] Curiosity : Can you get a HOPE facilitator to help with the audio? I saw another workshop where the guy had to get some technical assistance. They weren't able to resolve it, though, and had to reschedule.
+[20:51] Corbin Frisvold : Yeah, I just logged into the Matrix
+[20:51] psytek : i would suggest closing all programs other than what you need from task manager
+[20:52] J-Red : Too many unmuted mics?
+[20:53] psytek : it sounds like your bandwidth is being used - also you are downloading the libraries so that may affect it too.
+[20:53] Jimi : do you know if that talk (robots science and revolutionary art practice) has officially been rescheduled yet
+[20:53] psytek : no it has nothing to do with the mics
+[20:53] Curiosity : Jimi I want to know that, too!!!
+[20:53] Corbin Frisvold : Nah, mics wouldn't cause a problem, it's gonna be my personal connection
+[20:53] Corbin Frisvold : I anticipated problems but nothing like being fully kicked off
+[20:54] Curiosity : What if you took a few minutes to get to a place where you have a better connection?
+[20:54] Aleksandra : My internet was also crazy today, I had to switch to phone hotspot for entire cobol workshop.
+[20:54] Z : COBOL CTF was fun.
+[20:55] Aleksandra : yeah! I got 115 points :D
+[20:55] Aleksandra : it was super fun
+[20:55] Curiosity : Pretty sure most of us will wait 20 minutes if that's what it takes for you to drive to another location with stronger WiFi or something.
+[20:55] Corbin Frisvold : Ironically I'm on a wired connection, but I also live in roughly the middle of nowhere so it's out of my control
+[20:55] Allen : I knew letting Arduinos think was a bad idea.
+[20:55] Corbin Frisvold : They're coming for me
+[20:55] Z : Woo! I only got 90 but I'm happy with that. Took a while to get GCP sorted.
+[20:55] psytek : maybe try voice over your cell phone separately
+[20:56] Curiosity : A time traveler came back to stop this workshop so an Arduino AI doesn't take over the world. It was either interrupt the connection or kill the host, so I think they made the right choice
+[20:56] Aleksandra : the syntax in the cipher task killed me, but it will stay there, I want to finish it :)
+[20:56] Corbin Frisvold : Perhaps, should I ask a facilitator in the tech support matrix chat
+[20:56] psytek : https://bigbluebutton.org/2011/11/12/bbb-mobile-now-available-on-android-marketplace/
+[20:57] kixdsky : I finished fourth on the scoreboard for COBOL.  It convinced me that I do not want to be doomed to write COBOL for a living.
+[20:57] Aleksandra : @Corbin, how is your phone internet speed and stability of connection? maybe you can do hotspot?
+[20:57] Azriel : I asked in the matrix chat
+[20:58] Corbin Frisvold : I can try that, I'll pop back in momentarily
+[20:58] kaluce : I'm just trying to compile the TensorFlow Hello World ino file
+[20:58] Kush Mangat : what kind of cards did everyone get? mine's not here yet but i got this https://www.amazon.com/gp/product/B0713XK923/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+[20:58] kaluce : Might need another library
+[20:58] Aleksandra : I know that pain, I have 700MB/s dsl at home and today morniong I had to switch to mobile :D
+[20:59] psytek : could also be if you're doing a lot on the computer... and not just bandwidth related
+[20:59] kixdsky : https://www.amazon.com/gp/product/B07WXKDVTL/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
+[20:59] kixdsky : got mine with headers so I could stick it on a breadboard
+[20:59] Aleksandra : well, in my case it was internet, after switch stuff went smooth
+[20:59] Kush Mangat : nice!
+[20:59] nanopeace : y
+[20:59] psytek : yes
+[20:59] kaluce : yep
+[20:59] danbob : yes
+[20:59] Kush Mangat : yes
+[20:59] Daniel : Yes
+[20:59] Azriel : ack
+[20:59] kixdsky : yup
+[20:59] Aleksandra : y
+[21:00] Curiosity : Yes I can hear you
+[21:00] Jesse E. : yup
+[21:00] Swapneel : yes
+[21:00] Z : Woo!
+[21:00] nanopeace : n
+[21:00] Aleksandra : no
+[21:00] Swapneel : no
+[21:00] Curiosity : Keep talking
+[21:00] Jesse E. : no
+[21:00] psytek : not yet
+[21:00] Roxy : no
+[21:00] Daniel : not yet !!!!
+[21:00] kixdsky : much better
+[21:00] marc : better
+[21:00] nanopeace : good
+[21:00] 2600 Glasgow : better
+[21:00] Aleksandra : sounds good now
+[21:00] psytek : sounds good so far
+[21:00] Daniel : keep talking !!!
+[21:00] kixdsky : let's do this!
+[21:00] john : 👍
+[21:00] nanopeace : and louder!
+[21:01] Curiosity : You're plenty loud.
+[21:01] nanopeace : stronger sig, already louder!
+[21:01] Jimi : can you repeat the libraries just to make sure
+[21:01] Curiosity : How did you fix it?
+[21:01] lordoftherealm : my device has a volume control on it ;))
+[21:01] kixdsky : check shared notes for library names
+[21:02] kixdsky : yes
+[21:02] kaluce : yep
+[21:03] kaluce : It's the Arduino SIMD
+[21:03] nanopeace : not seeing your screen, btw
+[21:03] kaluce : sorry, SAMD*
+[21:03] nanopeace : my first time using bbb, getting used to it...
+[21:04] nanopeace : school breatime feature
+[21:04] Jimi : what school did you go to
+[21:05] mal : HOPE is hosting our own BBB, and we should have plenty of capacity for everyone ^.^
+[21:06] Aleksandra : @Kush, can u use these pins to put in on breadboard or they only for soldering?
+[21:06] Aleksandra : thank you :))
+[21:06] kixdsky : The link I posted has presoldered headers
+[21:07] Jesse E. : sounds good to me!
+[21:07] Curiosity : Sounds good!
+[21:08] nanopeace : New turf, want to use this as magic wand to control tech.
+[21:08] Curiosity : You're breaking up again :(
+[21:08] Curiosity : Talk some more
+[21:08] edenist : its not as bad as before
+[21:08] Daniel : You have to keep talking
+[21:08] nanopeace : that was all solid
+[21:09] nanopeace : little break every 20 sec
+[21:09] Curiosity : No, breaking
+[21:09] dml : yes, i think it is better to just keep talking
+[21:09] dml : we can make out what you are saying
+[21:09] Ax : The 13yo girl didnt have audio problems
+[21:09] mal : it's not great =\ check task manager->performance?
+[21:09] Ax : :'D
+[21:09] psytek : it's a bandwidth issue - when video was off it was clearer...  maybe you can turn on some transcription service
+[21:10] Z : We're trying to listen. :-D
+[21:10] nanopeace : Just be redundant when speaking. It may be volume cutoff, maybe stay close to mic or keep even volume
+[21:10] Daniel : Audio dead
+[21:10] Skyraider : And the Ax draws blood!
+[21:10] Ax : I cant hear your retort cuz your audio is gone now
+[21:10] psytek : yeah repeat yourself alot
+[21:10] psytek : yeah and we'll chat here, we can do this :)
+[21:10] nanopeace : we'll let you know when we miss something...
+[21:11] Corbin Frisvold : My dogs are having a barking fest-
+[21:12] lordoftherealm : Let the dogs out!   Or is it ruff outside?
+[21:12] Ax : Its raining cats and dogs
+[21:12] nanopeace : trained model is called what?
+[21:12] nanopeace : inference?
+[21:12] Corbin Frisvold : Inference
+[21:12] danbob : "inference model"
+[21:12] Corbin Frisvold : Yep
+[21:12] nanopeace : thx
+[21:13] foxxtrot : Ready here
+[21:13] Curiosity : You've got this, man! All 51 people are still with you!
+[21:15] danbob : yes please!
+[21:15] edenist : yes please :-)
+[21:15] Curiosity : ofc
+[21:17] Corbin Frisvold : https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/hello_world
+[21:18] mal : (if you're speaking, we can't hear you)
+[21:18] Corbin Frisvold : crap- really?
+[21:19] mal : not since you started typing #include
+[21:19] mal : "put that in shared notes" was the last
+[21:19] Corbin Frisvold : ooooof
+[21:20] psytek : @mal is there a way to call in or do audio from a phone?
+[21:20] psytek : a separate line might help here
+[21:20] mal : I don't think so, unless A/V has a way to flop presenting over to zoom or something
+[21:21] psytek : Corbin are you talking?
+[21:21] Corbin Frisvold : Yep!
+[21:21] psytek : not hearing anything now
+[21:22] Aleksandra : there is a silence here
+[21:22] Corbin Frisvold : Is there a way I can do audio off my phone but still screen share?
+[21:22] Aleksandra : image is frozen too, but that may be my internet
+[21:22] mal : I don't think BBB has call-in, at least not configured
+[21:22] psytek : you could call someone here and they put the phone next to their mic ...
+[21:23] Aleksandra : @Corbin, can you just connect your computer via phone to internet?
+[21:23] Jimi : we could do a separate audio call thru signal or zoom
+[21:23] J-Red : can you open it on your phone and do audio over 4g?
+[21:23] J-Red : that might suck.
+[21:23] Corbin Frisvold : The phone hotspot is what I switched over to that fixed the mic issues
+[21:23] Aleksandra : aaa, ok
+[21:23] Z : Open bbb in your mobile browser and get voice or presenter.
+[21:24] Z : hmm...
+[21:24] dml : this is painful. Corbin: we appreciate you putting together a presentation, but tips for the future: a) don't oversubscribe yourself on days where you have 2 college-level exams. b) maybe put the effort into recording something locally and then post to youtube? I'm sure the HOPE organizers will send the link to people registered for this workshop. Look forward to checking out your blog posting.
+[21:24] psytek : lets keep working on this
+[21:25] psytek : don't let 1 person stop you... 51 people still here, can you switch back to your wired connection and try rebooting your computer?
+[21:25] Aleksandra : It is fine, shit happens, we can wait a little and Corbin can fix stuff.
+[21:25] Corbin Frisvold : Yeah I hate to take up people's time with technical issues.  Let me try some things? I'm really sorry guys
+[21:25] psytek : its ok
+[21:25] Curiosity : @Dml he doesn't want to talk to a brick wall.
+[21:25] kaluce : Keep doing your thing Corbin.
+[21:25] mal : lacking any specific suggestions, try just rebooting and rejoining?
+[21:25] 689412 : You can do it!
+[21:26] Corbin Frisvold : Yeah I'm gonna rejoin
+[21:26] Aleksandra : @Corbin we appreciate your effort, do what you think may work :)
+[21:26] Curiosity : You're not the first one to have technical issues. Keep trying to fix them, we're still with you. But keep in mind you might have to reschedule like the Robotics and Art guy did.
+[21:26] psytek : yeah reboot, make sure you don't have torrents downloading and join again
+[21:26] edenist : all good. we're all making the best of things so lets work it out ;-)
+[21:26] Welcome to <b>Teaching an Arduino to Think</b>!<br><br>For help on using BigBlueButton see these (short) <a href="http://www.bigbluebutton.org/html5" target="_blank"><u>tutorial videos</u></a>.<br><br>To join the audio bridge click the phone button.  Use a headset to avoid causing background noise for others.<br><br>This server is running <a href="http://docs.bigbluebutton.org/" target="_blank"><u>BigBlueButton</u></a>.
+[21:26] kaluce : wait, can you just open the workshop on your phone, and just turn the mic on that?
+[21:26] mal : university internet is my favorite 🙄
+[21:26] kaluce : you'd be Corbin2 or something, but it'd work.
+[21:26] fatfishy : hows your speed test? did hotspot run out of data
+[21:26] psytek : yes
+[21:26] kaluce : Yes
+[21:26] Aleksandra : yes :)
+[21:26] Kush Mangat : y
+[21:26] psytek : hear you
+[21:26] g33rb0x_ : affirmative
+[21:26] Jesse E. : yes
+[21:26] edenist : woo
+[21:26] fatfishy : ya
+[21:26] Skyraider : Y
+[21:27] 689412 : Good quality and volume!
+[21:27] psytek : still hear the choppyness - did you reobot?
+[21:27] g33rb0x_ : keep speaking
+[21:27] psytek : reboot
+[21:27] Curiosity : Keep talking
+[21:27] Skyraider : A bit
+[21:27] 689412 : It is perfect for me.
+[21:27] g33rb0x_ : sing a song
+[21:27] Aleksandra : i hear you well, no cutting
+[21:27] mal : cpu/ram?
+[21:27] psytek : maybe you have a heavy process running
+[21:27] psytek : did you reboot?
+[21:27] 689412 : Sounds fine to me.
+[21:27] mal : you could also try chrome
+[21:27] Ax : Ask the 13yo girl for help
+[21:27] kaluce : Firefox ESR?
+[21:27] psytek : 50, hmm, 20 would be better
+[21:28] Ax : :D
+[21:28] psytek : cpu seems a bit worked at 50...
+[21:28] fatfishy : yea 50 a bit high
+[21:28] g33rb0x_ : I kinda sorta wanna have a radio playing in the background or something steady (not on the computer, obvi... save the cpu resources).. just as a constant
+[21:29] fatfishy : kill matrix/element chat that things a beast
+[21:29] psytek : reboot would clear your memory and help diagnose,
+[21:29] psytek : yeah that's a good idea too
+[21:29] 689412 : I have to use matrix on a separate machine.
+[21:29] foxxtrot : I'lll...refrain from counting my current number of open Chrome tabs
+[21:29] psytek : sounds ok
+[21:29] Skyraider : Much
+[21:29] edenist : sounds good here
+[21:29] J-Red : vscode is electron. did someone already say that?
+[21:30] Azriel : if not, kill it with fire
+[21:30] 689412 : Sounds good.  Go for it.
+[21:30] Ax : I have ♾️ open tabs in Chrome.
+[21:30] g33rb0x_ : chrome be doin shady shizz
+[21:30] Ax : When one browser gets slow feom all its tabs, i just install another one
+[21:31] Ax : We're all rooting for you man!
+[21:32] mal : what context?
+[21:32] kaluce : I think he meant you didn't have enough mental bandwidth for everything going on.
+[21:32] 689412 : Oversubscribing is when you sign up for more than you can chew.
+[21:32] 689412 : overscheduled.
+[21:32] Z : Don't jam your calendar full and then keep going with commitments.
+[21:32] Aleksandra : I think he thought that you are tired or something and that is why stuff does not work.
+[21:32] lordoftherealm : I am going to check in with HOPE Tech to see if there are any issues.
+[21:32] Ax : I think they meant dont overload your schedule with tests and a conference presentation on same day? But it's not like you could control the dates.
+[21:32] psytek : we have two techs in here
+[21:32] psytek : at least
+[21:32] mal : I've got no bbb-specific knowledge though =(
+[21:32] rtrevinnoc : yes
+[21:33] foxxtrot : Yep
+[21:33] 689412 : Looks good.
+[21:33] kaluce : yep
+[21:33] Jesse E. : yes, i can see activity
+[21:33] Skyraider : Y
+[21:33] Aleksandra : yeah, but how network working depends on his level of rest? ;) no relation
+[21:33] Daveed : i joined as early as I could! can we follow along with an Uno?
+[21:33] mal : psytech: add forrest-jrwr
+[21:33] psytek : are they joining? sure
+[21:34] mal : (unless I misheard something on voice)
+[21:34] Daveed : cool thanks!
+[21:34] Curiosity : Yes! Link!
+[21:35] Daveed : i'll stick around even if i can't follow along this :)
+[21:35] edenist : @Daveed I don't have the exact hardware yet either, but I'm just following along with the IDE for the time being, and can upload the builds when it arrives ;-)
+[21:36] fatfishy : could prob get an IMU shield for uno
+[21:36] Daveed : @edenist :D
+[21:36] Z : Sounds like a success.
+[21:37] J-Red : can you zoom in?
+[21:37] kixdsky : can you zoom your code
+[21:37] J-Red : ctrl + wheel
+[21:37] psytek : ctrl + scroll ?
+[21:37] rtrevinnoc : yes
+[21:37] Z : *magic*
+[21:37] kixdsky : bueno
+[21:37] J-Red : much better
+[21:37] 689412 : Oh, yes.
+[21:38] J-Red : I can make lights blink
+[21:38] foxxtrot : I know the basics
+[21:38] rtrevinnoc : I got the basics
+[21:38] Jimi : general overview ?
+[21:38] 689412 : Blinkenlights
+[21:39] Daveed : that feel when you first hook up a potentiometer to the Blink Example sketch
+[21:39] Daveed : *chef's kiss*
+[21:43] kaluce : Libraries.
+[21:43] kaluce : It should complain if it's not installed
+[21:43] psytek : wow
+[21:43] fatfishy : wat
+[21:44] Daveed : sounds unusual
+[21:44] Swapneel : are you using windows?
+[21:44] psytek : found the culprit
+[21:44] Jesse E. : java
+[21:44] Daveed : GamerOS
+[21:44] Jesse E. : possibly heap?
+[21:44] J-Red : mine is using 240mb
+[21:44] kaluce : Sounds about right.
+[21:44] Z : EmBedDed PrOgRaMmInG
+[21:44] Daveed : XD
+[21:44] Swapneel : audio cut out
+[21:44] Swapneel : last I heard was gamerOS
+[21:45] Swapneel : what do you play?
+[21:45] rtrevinnoc : I've been running rdr2 fine on wine for a month now
+[21:45] psytek : haha
+[21:45] Swapneel : bet
+[21:45] kaluce : I'm just getting a Doritos and Mountain Dew vibe RN.
+[21:45] Daveed : machine learning within fortnite
+[21:45] Swapneel : that's a talk I'd love
+[21:45] edenist : minecraft is turing complete....
+[21:45] Ax : YES
+[21:45] edenist : haha yeah!
+[21:46] Swapneel : never used the linux subsystem on it, is it worth anything?
+[21:46] Ax : Michael Reeves projects are great.
+[21:46] kaluce : On Windows? WSL1 is essentially Cygwin.
+[21:47] Swapneel : i like pyenv better than anaconda
+[21:47] mal : WSL is good unless you need to use a lot of small files on WSL1, files on windows from WSL2, or gui stuff. or things that don't work in it like ping.
+[21:48] Z : My Anaconda won't run unless it's got fun().
+[21:48] Z : (Needs work.)
+[21:48] Aleksandra : why not to install second system on the disk?
+[21:49] mal : it's just cd /mnt/c/ or something
+[21:49] mal : might be /media/c/
+[21:49] Swapneel : or just make a VM
+[21:49] Swapneel : with shared disk
+[21:50] Aleksandra : I never used this module, have xubuntu as second system, and bunch of VMs :)
+[21:50] Swapneel : is xubuntu good?
+[21:50] Swapneel : i'm on KDE
+[21:50] Aleksandra : I like it, simple, light, functional
+[21:50] Swapneel : i like KDE, but it's kinda annoying that all the built in apps start with the letter K
+[21:51] Daveed : KDE breaks in a different way on every machine i run it on
+[21:51] Daveed : mostly graphics issues
+[21:51] Swapneel : you running arch or ubuntu?
+[21:51] Daveed : ubuntu
+[21:51] Swapneel : tried arch before?
+[21:51] Swapneel : been thinking of switching to manjaro
+[21:51] Daveed : no i haven't! i'll give it a shot
+[21:52] Swapneel : it's also arch based
+[21:52] Swapneel : but arch solves a lot of the problems ubuntu has with graphics
+[21:52] Swapneel : most of the fixes in arch trickle down to ubuntu
+[21:52] Swapneel : eventually
+[21:52] fatfishy : Manjaro is my distro of chioce
+[21:52] rtrevinnoc : yesss, when I tried arch for the first I was surprised how easy it handled the graphics stack
+[21:53] rtrevinnoc : always tought it was as hard as memes made it out to be
+[21:53] kaluce : Arch is cool and all until it breaks something serious.
+[21:53] Aleksandra : oh yes, drop please :)
+[21:54] mal : yes
+[21:54] kaluce : yep
+[21:54] fatfishy : missing an f
+[21:54] Aleksandra : looks good, thanks
+[21:55] Aleksandra : jees, I am trying to scroll your code :D
+[21:55] g33rb0x_ : was that... a gong
+[21:55] Kush Mangat : lol
+[21:55] Daveed : lol it was totally pitched
+[21:55] g33rb0x_ : well it put me in a meditative state so awesome
+[21:56] Daveed : i think it was a B3
+[21:56] g33rb0x_ : I second that career pivot
+[21:56] kaluce : Every time it finishes compiling, gong away.
+[21:56] Daveed : that was more of a B flat
+[21:56] Aleksandra : yeah! :D fortran and gongs <3
+[21:56] g33rb0x_ : lmaoooo
+[21:56] g33rb0x_ : love it
+[21:57] Daveed : XD
+[21:57] Z : Maybe e-quines.
+[21:59] kixdsky : i have]
+[21:59] kaluce : It compiled, not doing much on the upload.
+[21:59] Z : I'm waiting for my blink code to compile...
+[21:59] Jesse E. : i have some squiggly lines in the serial monitor, so i think mine is working
+[22:00] Z : More like surreal errors.
+[22:01] g33rb0x_ : Arduino needs to evolve into ArduiYes
+[22:01] Corbin Frisvold : your pun game is too strong
+[22:01] Daveed : we chillin in here
+[22:02] Corbin Frisvold : Yeah, I accidentally got a 3 hour timeslot when I requested a 2 hour one anyhow, so I've got time to break things I guess
+[22:02] kaluce : So, uh, you needed the Nano IoT or the BLE, btw?
+[22:02] Jesse E. : ble sense
+[22:02] Z : I held off on saying nuke a rear instead of new career.
+[22:03] kaluce : Well shit. I got an IoT
+[22:03] kaluce : meh, I'll find something to use it for
+[22:04] kaluce : On the 25 deep stack with all the other MCUs it goes.
+[22:04] kaluce : It was on the Wiki actually
+[22:04] kaluce : I wasn't aware of it either.
+[22:04] Jesse E. : you can always get some sensors and hook them up
+[22:05] Jesse E. : (more stuff to buy though
+[22:05] Jesse E. : )
+[22:05] kixdsky : So, I compile, I upload, but get nothing from the serial port
+[22:05] Aleksandra : My compiled, but I have no board :D
+[22:05] David : same, no serial output
+[22:05] Jesse E. : try setting the baud to 9600
+[22:06] David : im at 9600..  I'll figure it out
+[22:07] Jesse E. : reset the board? you should be able to press the button on the board
+[22:07] David : it did upload correctly which is weird. I unplugged, reuploaded and it's good now. No idea why
+[22:09] fatfishy : sweet
+[22:10] fatfishy : I miss having a barometer on my phone
+[22:10] fatfishy : galaxy s5 had one
+[22:10] Z : Most Samsung ones do.
+[22:10] kaluce : My old Droid Incredible had an FM radio
+[22:10] kaluce : That was the most useless function.
+[22:10] Z : FM radio often in the same chipset as Bluetooth.
+[22:11] expowderhorn : I don't know how I'd get by without my phone barometer >.>
+[22:11] kaluce : Yes, still useless tho.
+[22:11] Daveed : XD
+[22:11] fatfishy : haven't had a samsung phone in forever but I think they still put them in
+[22:12] nanopeace : can put steps in shared notes?
+[22:12] g33rb0x_ : XD
+[22:14] nanopeace : thx
+[22:17] kaluce : uh
+[22:17] kaluce : did everything freeze
+[22:18] kaluce : ok, it got REAL quiet, and my computer is threatening updates
+[22:18] kaluce : W10.
+[22:18] Daveed : there's a really good utility to stop that
+[22:18] kaluce : W10 hears you, W10 don't care.
+[22:19] Daveed : O&O ShutUp10
+[22:19] Daveed : use this to make W10 tolerable ^
+[22:20] kaluce : I usually just disable wuauserv for a day or two
+[22:20] kaluce : PS task to kill it every hour or so.
+[22:20] nanopeace : In properties of network interface, turn on 'this is a metered connection' switch. Then under updates, you can set to skip update if on a metered connection. This is the only built-in way I know to stop W10 updates. All your PC belong to Microsoft.
+[22:21] Z : I think this is where I discover which cables are power-only...
+[22:21] Aleksandra : it is not this one, right?: https://www.amazon.com/dp/B07G99NNXL
+[22:22] kaluce : https://www.amazon.com/Arduino-Nano-33-BLE-Sense/dp/B07WV5GF17/ref=sr_1_2?dchild=1&keywords=nano+ble+sense&qid=1596075723&s=electronics&sr=1-2
+[22:22] Aleksandra : thanks
+[22:22] Corbin Frisvold : https://www.amazon.com/Arduino-Nano-Sense-headers-Mounted/dp/B07WXKDVTL/ref=sr_1_2?dchild=1&keywords=nano+33+ble+sense&qid=1596075727&s=electronics&sr=1-2
+[22:22] kaluce : That's the official Arduino link, get the knock off.
+[22:22] expowderhorn : i got a coral edge-tup a while back that runs tensorlfow lite so I'm going to try to follow with that.
+[22:23] expowderhorn : coral.ai edge-tpu
+[22:23] Z : 'External' accelerator.
+[22:23] Jesse E. : the usb dongle?
+[22:23] kaluce : That's nifty.
+[22:23] expowderhorn : yes,
+[22:23] expowderhorn : yes
+[22:23] Z : Intel bought a similar company, Movidius.
+[22:24] Z : Are you buying a dongle or the whole company? :-D
+[22:24] expowderhorn : don't remember but not much. not more than 50 or so?
+[22:24] kaluce : Hope always shows me the coolest gadgets.
+[22:24] Z : Meeelions.
+[22:24] David : Are there any repositories for pre-existing & trained tensorflow models? I figure most are device specific but some are not, so for the nano 33 for example
+[22:24] Jesse E. : 1000000 edge tpus add up to a cloud tpu
+[22:25] expowderhorn : https://coral.ai/models/ here are some TF lite ready nets.
+[22:26] Z : PyImageSearch has a few pages on the accelerators, too.
+[22:27] Jesse E. : i think they are a gateway drug to the bigger ones running in google cloud
+[22:29] Z : s p a c e
+[22:29] Z : ok, that's weird.
+[22:31] kaluce : Platform.IO in VSCode is pretty good as far as that goes
+[22:31] kaluce : I love Atom for Ansible
+[22:32] kaluce : I'm a sysadmin, Ansible is my bread and butter. Worth it if you want to set up boatloads of identical machines
+[22:32] kaluce : VM or bare metal
+[22:32] Daveed : if you aren't using Word as your IDE what are you even doing
+[22:33] kaluce : Don't tempt him!
+[22:33] Z : oh no
+[22:33] kaluce : Unlicensed.
+[22:33] kaluce : Read only.
+[22:34] Daveed : F
+[22:34] Aleksandra : it is read only if you have no license
+[22:34] Aleksandra : notepad forever ;)
+[22:34] Z : sans comic sans
+[22:37] kaluce : Yep
+[22:37] edenist : yes
+[22:38] kaluce : what model?
+[22:38] Jesse E. : my work laptop is a thinkpad
+[22:38] kaluce : I don't know actually.
+[22:38] edenist : I've got a t470 and x1 carbon... no idea what beep thing is though sorry. I've never heard it
+[22:39] Jesse E. : are you talking about the non speaker beep when you get errors and stuff?
+[22:39] expowderhorn : I put libreboot on thinkpads as a parttime busines and I don't know what you're talking about, lol
+[22:39] edenist : maybe it's with the windows driver?
+[22:39] kaluce : On the topic of Thinkpads, I miss the LCD light
+[22:40] Aleksandra : I need to go now, thank you for a workshop :)
+[22:40] Aleksandra : I will take a look on your blog later :)
+[22:40] Aleksandra : You too. Stay safe and have fun.
+[22:40] expowderhorn : that might be why... since  it replaces the bios i guess..
+[22:41] Swapneel : @expowderhorn, what's libreboot?
+[22:41] Swapneel : and should I put it on my p51?
+[22:42] Swapneel : I run linux on it and it's pretty good
+[22:42] expowderhorn : its an opensource firmware bios, and I don't think it runs on that unfortuantely. =/
+[22:44] Jimi : sorry im kinda behind and still typing in the const int functions , is all of this in the shared code?
+[22:45] kaluce : It's open source, and I think it allows you to use whatever wifi adaptors you want
+[22:45] Jimi : thank you !
+[22:46] kaluce : nah, Thinkpads actually block certain device codes that aren't on their HCL
+[22:46] expowderhorn : libreboot prevents firmware attacks that can happen below your os. if you've heard of intel ME or light eater, it prevents that kind of thing
+[22:46] expowderhorn : https://www.youtube.com/watch?v=sNYsfUNegEA
+[22:46] kaluce : so you wouldn't be able to use it
+[22:46] expowderhorn : demo of light eater^
+[22:51] nanopeace : what's the purpose of this sketch again?
+[22:56] nanopeace : love me some dark red on black text.
+[22:56] nanopeace : :)
+[22:58] psytek : maybe drop it in vs code to see if it picks up any syntax issues?
+[22:59] nanopeace : dial up the font size?
+[23:00] nanopeace : good
+[23:00] Swapneel : aiite, I gotta head, pretty good presentation, you said you'd be uploading some stuff?
+[23:01] expowderhorn : nice
+[23:01] nanopeace : cool!
+[23:01] Swapneel : cool, I did, I look forward to your blog
+[23:02] Daveed : whoa
+[23:02] Z : Put it in the serial grapher.
+[23:02] Swapneel : does this mean you can make it simulate any function?
+[23:02] expowderhorn : hell yeah
+[23:03] Jimi : what are some examples of applications for this
+[23:03] Swapneel : neural networks?
+[23:03] expowderhorn : for real, it looks like taylor series? : D
+[23:03] Swapneel : I though tit was mostly for decision making
+[23:03] Swapneel : in the college class I used it to do OCR on license plates
+[23:04] Swapneel : yup
+[23:04] expowderhorn : @corbin you watch Two Minute Papers at all?
+[23:04] nanopeace : evo sauro?
+[23:04] Corbin Frisvold : Evosoro
+[23:05] Swapneel : lol, led with university of vermont
+[23:05] Swapneel : and just slipped the harvard part in
+[23:06] Jimi : whoa
+[23:06] expowderhorn : what?
+[23:06] Daveed : what the actual
+[23:06] Swapneel : you....you made frog robots?
+[23:06] expowderhorn : screenshot or its not real
+[23:07] Swapneel : lol, I was getting ready to leave and you hit me with frog robots
+[23:07] expowderhorn : lol
+[23:07] Swapneel : and now i'm all......let's see where this goes
+[23:07] nanopeace : It's all frog robots and hope after dark...
+[23:07] Corbin Frisvold : https://www.uvm.edu/uvmnews/news/team-builds-first-living-robots
+[23:07] expowderhorn : Thats what im talking about.
+[23:07] curiousrosa : OMG.
+[23:08] nanopeace : need a vr chatroom
+[23:08] kaluce : I'm actively resisting making Alex Jones jokes
+[23:08] nanopeace : !!!!
+[23:08] Swapneel : bring teh frog robots
+[23:08] Z : Mozilla Hubs is already up for one group.
+[23:08] kaluce : Turning the frogs robots.
+[23:08] Swapneel : ...not that there's anythign wrong with that
+[23:09] lordoftherealm : Just by saying Alex Jones - that is a joke ;))
+[23:09] Jesse E. : isn't that what mozilla hubs are?
+[23:09] Daveed : anarchist village is in VR
+[23:09] nanopeace : Need to look into mozilla hubs, heard the name but not sure what it is...
+[23:10] nanopeace : links to hope vr / hub?
+[23:10] curiousrosa : Is it important to do this on the small embedded format instead of something heftier like Raspberry Pi 4?
+[23:11] Jesse E. : https://wiki.hope.net/index.php?title=Mozilla_Hubs
+[23:11] expowderhorn : privacy is also an interesting point on edge computing ML
+[23:12] nanopeace : thx!
+[23:12] Z : There has been some movement on getting the Pi video hardware able to run some computer vision stuff. Don't know all the details.
+[23:13] Z : It will, but this is specific video acceleration from the onboard chip that is mostly just binaries until recently.
+[23:14] Daveed : @nanopeace https://wiki.hope.net/index.php?title=Anarchist_Hackers_Village
+[23:14] expowderhorn : I can't believe RL NN models approximate sine the same way we do.. o.O
+[23:15] expowderhorn : not GAN based?
+[23:16] expowderhorn : oh I saw that part of your talk.
+[23:16] expowderhorn : yeah
+[23:17] expowderhorn : I think we're going to be learning more about cognitive neurology on aaccident than were comfortable with. : )
+[23:17] Daveed : anybody interested in other theoretical connections between brain and computer should look up complexity theory
+[23:17] curiousrosa : Tensor Flow runs on Particle Xenons. Very small.
+[23:17] Daveed : or post-cognitive theory
+[23:17] nanopeace : say again?
+[23:17] kaluce : Well, I think I'm going to have to call it. This was interesting, and I now have a lot more things to look into.
+[23:17] expowderhorn : Could you say that again? broke up.
+[23:17] Daveed : classical cognitive theory is a bit too rooted in the computational model of consciousness, which leans too heavily on assuming the brain works like a computer
+[23:17] expowderhorn : cool
+[23:18] curiousrosa : https://blog.particle.io/particle-machine-learning-101/
+[23:18] nanopeace : awesome!
+[23:18] expowderhorn : put in notes?
+[23:18] Jesse E. : i don't think this model was trained on deep voices, i had to raise my voice a couple of octaves to get it to register
+[23:19] Daveed : proximity effect baby
+[23:19] Corbin Frisvold : https://discord.gg/7wuPcud
+[23:19] Daveed : thanks!!
+[23:19] Jesse E. : are there any instructions anywhere on how to retrain the model?
+[23:20] Jesse E. : cool, thanks!
+[23:20] nanopeace : heading out. thanks!
+[23:21] nanopeace : y
+[23:21] Z : It's less interesting when things don't break.
+[23:22] Daveed : this has been super educational so far
+[23:22] Daveed : this is like an educational supernova
+[23:22] Daveed : of raw learning energy
+[23:23] Daveed : @z seconding that
+[23:23] expowderhorn : yeah,  I wish I had could quite follow along, but at least I got my ROK board to ID some bird pics.
+[23:24] expowderhorn : had an arduino*
+[23:24] rtrevinnoc : I have to leave Corbin, but thank you very much, it was a great workshop!
+[23:24] expowderhorn : I didn't realize that wasnt a looping gif.
+[23:25] rtrevinnoc : you too, thank you!
+[23:26] Jesse E. : i always forget how slow uploading stuff to microcontrollers are
+[23:26] expowderhorn : I've been interested in non-proprietary ML libararies. Have thoughts / experience with  OpenCL, etc?
+[23:26] expowderhorn : Also thinking about implementing some stuff in rust.
+[23:27] curiousrosa : Great workshop. So much ...and frog robots, too!
+[23:27] expowderhorn : I'm usring keras and scikit in python. yeah
+[23:27] expowderhorn : noticed the octive icon on your desktop.
+[23:27] expowderhorn : I never used. its good?
+[23:27] Z : The image and signal libraries are great.
+[23:28] expowderhorn : I heard its matlab on fortran.
+[23:28] expowderhorn : on java
+[23:28] expowderhorn : lol
+[23:28] Z : Good book.
+[23:29] Daveed : huzzah!
+[23:29] edenist : 64MHz
+[23:30] lordoftherealm : Remember you can copy the Public Chat area.   Just click on the 3 dots.
+[23:30] Daveed : wow
+[23:30] Daveed : o//
+[23:31] edenist : thank you very much Corbin!
+[23:31] expowderhorn : GRATZ
+[23:31] Kush Mangat : was a great workshop, thanks!
+[23:31] Jesse E. : thanks for getting us started in the right direction!
+[23:31] expowderhorn : thanks for the session, yo
+[23:31] fatfishy : cool thanks
+[23:31] expowderhorn : good times
+[23:31] lordoftherealm : Thank you!
+[23:31] Daveed : 👏
+[23:32] David : thank u!
+[23:32] Daveed : thanks :)
+[23:35] Corbin Frisvold : I'm signing off, goodnight folks!  Stay safe and well!
+[23:36] Z : ✌
+[23:36] Z : Learning: Win+. gives you an emoji board.

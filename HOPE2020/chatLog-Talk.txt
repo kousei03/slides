@@ -1,0 +1,214 @@
+👾
+did that top cell change from Code to Raw NBConvert by accident?
+i do it by keyboard shortcut by accident
+im not sure what it is
+buddhabrot
+it's markdown formatted instead of code formatted
+ah he got it yay 
+psenough
+didnt know about that sunglasses thing, cool stuff
+why folks are weary of live demos summarized :)
+float13
+yeah that's awesome, i want some sunglasses!
+qdigi
+matrix maths all the way down
+waklert
+😂
+psenough
+QUESTION: got any good entry points for people wanting to learn machine learning?
+ariella
+
+psenough
+
+    QUESTION: got any good entry points for people wanting to learn machine learning?
+
+Good Question
+t1b0
+
+psenough
+
+    QUESTION: got any good entry points for people wanting to learn machine learning?
+
+I'm not into the subject matter, but years ago Sebastian Thrun's class on Udacity was good
+psenough
+it feels like it's moving so fast that anything 3 years ago is outdatted. i heard a lot of good things about just getting into tensorflow and go from there
+t1b0
+Andrew Ng 👍️
+ariella
+Yes
+psenough
+yes please
+richieb
+yes
+forestgoat
+Ah-j-yeah
+z3r0fox
+Yes plz
+coneylove
+Yes please!
+qdigi
+yup, good book!
+jp
+some questions are in the zoom chat too
+float13
+if you're ok with python you could try messing around with the sklearn tutorials
+tomigotcha
+i think edx has some courses on ML as well. was thinking about checking them out at some point so not sure how good they are
+cfrisvold
+https://arxiv.org/pdf/1905.02175.pdf
+ariella
+
+cfrisvold
+
+    https://arxiv.org/pdf/1905.02175.pdf
+
+Thank you
+jp
+Thank you!
+notthomzane
+I hear face masks are a good alternative to sunglasses.
+👾
+https://web.archive.org/web/20200413112548/http://openaccess.thecvf.com/content_cvpr_2018/papers/Dolhansky_Eye_In-Painting_With_CVPR_2018_paper.pdf
+Wayback Machine
+success fail Jun APR May 13 2019 2020 2021 3 captures 23 Jun 2019 - 13 Apr 2020
+richieb
+What about putting patterns on a mask/face covering?
+notthomzane
+Face masks + sunglasses are even better.
+psenough
+the sunglasses approach feels kinda more elegant :D
+ariella
+
+👾
+
+    https://web.archive.org/web/20200413112548/http://openaccess.thecvf.com/content_cvpr_2018/papers/Dolhansky_Eye_In-Painting_With_CVPR_2018_paper.pdf
+
+thank you
+waklert
+Seems like after the area surrounding the eyes, the next best would be cheekbones & jawline, at least if you want to be so targeted as to select what face you should appear as.
+👾
+im trying to find the handwriting one
+I mean, I have the source paper of the adversarial attack with the written numbers, looking...
+cfrisvold
+
+👾
+
+    im trying to find the handwriting one
+
+SKLearn example?
+ariella
+how do we get those glasses or face mask with those images??
+buddhabrot
+Something I'm wondering is how much evidence is there that an adversarial attack against one trained model will work against a totally different model? 
+
+Like, I could imagine that the sunglasses would work great on the model the researchers trained, but there might be other models out there that handle the sunglasses more easily. 
+greylight
+Do you know of any tools that are, or could be easily integrated into a mobile app for poisoning images? 
+waklert
+How quantified is the resilience of machine learning models? 
+kupad
+suggestion: you might want to repeat the question on air before answering, for posterity
+devilsare
+Question: what are your future research plans? What do you want to get involved in?
+psenough
+post the link to that github please, we cant see the address
+cfrisvold
+https://github.com/EthicalML/awesome-production-machine-learning#adversarial-robustness-libraries
+EthicalML/awesome-production-machine-learning
+ - GitHub
+A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning - EthicalML/awesome-production-machine-learning
+Sorry, I'll have these all up in my blog later as well
+waklert
+Thanks!
+cfrisvold
+https://maker.godshell.com
+rtrevinnoc
+
+cfrisvold
+
+    https://maker.godshell.com
+
+thank you <3
+waklert
+Oh nice, have you looked into the cool work that Disney Research has been doing?
+Their youtube channel has excellent demos
+user_0x78
+online classes ruined my gpa
+big time
+z3r0fox
+I dabbled with this stuff once, looking forward to the blog. Please post your workbooks too then if you could <3
+user_0x78
+i just can't self motivate sometime and ooh boi, it gets rough when i have to do it myself 
+waklert
+They have several interesting human-robot interaction demos
+Which relates to soft robotics
+user_0x78
+thanks! 
+coneylove
+What kinds of terms should we use when searching for related information?
+cfrisvold
+Carol Dweck - Grit and deliberate practice.  
+Flow - Mihaly csikszentmihalyi
+user_0x78
+ML is pretty obviously not generalized AI, at least to me, how do you see your research going towards that or do you even care about generalized AI?
+buddhabrot
+You'd probably be really interested in this: 
+
+machine learning powered robot chemist: 
+
+https://www.inverse.com/innovation/robot-chemist-advances-science
+Robot scientists have solved the biggest challenge in chemistry
+ - Inverse
+Scientists have designed a new robot chemist to help make discoveries in the lab, but they say it won't be replacing humans anytime soon.
+the_gibson
+Spot runs 2.4B/G/N for control.... totally deauth attack vulnerable...
+user_0x78
+it's funny, because i am a lot more interested in minds then how those minds "see" 
+buddhabrot
+longer video from nature: 
+https://www.youtube.com/watch?v=dRT3tepdMyI
+Your new lab partner: A mobile robot chemist
+ - YouTube
+Scientists at the University of Liverpool have developed a fully autonomous mobile robot to assist them in their research. Using a type of AI, the robot has ...
+seanleblanc2600
+
+cfrisvold
+
+    Carol Dweck - Grit and deliberate practice.  
+    Flow - Mihaly csikszentmihalyi
+
+I see a book by Carol Dweck called Mindset and a book by Angela Duckworth with title of "Grit..."
+greylight
+
+the_gibson
+
+    Spot runs 2.4B/G/N for control.... totally deauth attack vulnerable...
+
+Desperately running airreplay-ng as the cop-bot breaks down my door.
+user_0x78
+oh that's cool, a bit like how alpha go invented new ways to play  go
+buddhabrot
+damn, that last point -- mind blown -- thank you for that 
+cfrisvold
+
+buddhabrot
+
+    damn, that last point -- mind blown -- thank you for that 
+
+What point? lol
+psenough
+asimov? :p
+buddhabrot
+re: adversarial examples offering us valuable opportunities in seeing how machine learning algorithms see the world
+ariella
+You need to read "Old Mans War"
+nx74205
+Foundation Series
+ariella
+You need to read "Old Mans War" by scalzy
+user_0x78
+cfrisvold: have you watched any lex fridman on youtube?
+pretty mindblowing shit
+the_gibson sent an image
+thumbnail_Image.jpg
+Download thumbnail_Image.jpg (222.64 KB)
